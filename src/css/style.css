@@ -1,0 +1,49 @@
+@font-face { font-family: FontAwesome; src: url('fontawesome-webfont.woff'); }
+  @media screen and (min-width: 600px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    .card {
+      flex: 1 1 calc(33% - 2rem);
+    }
+  }
+  .icondiv{
+	    text-align: center;
+		margin-top: 20px;
+  }
+  .card {
+    margin: 1rem;
+    background: white;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all .2s linear;
+	padding-left: 25px;
+    padding-bottom: 20px;
+  }
+
+  .card:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);
+  }
+  .fa-spin {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+	}
+	.fa-3x {
+		font-size: 3em;
+	}
+	.fa {
+		font-family: FontAwesome;
+		display: inline-block;
+		font: normal normal normal 60px/1 FontAwesome;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	.fa-spinner:before {
+		content: "\f110";
+	}
