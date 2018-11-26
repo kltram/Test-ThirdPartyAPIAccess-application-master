@@ -65,5 +65,18 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kltram/Test-ThirdPartyAPIAccess-application-master.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kltram/Test-ThirdPartyAPIAccess-application-master/issues"
+  },
+  "homepage": "https://github.com/kltram/Test-ThirdPartyAPIAccess-application-master#readme"
 }
